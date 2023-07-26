@@ -7,5 +7,27 @@
       "height": 1080,
       "fitHeight": true
     }
+  },
+  "physics": {
+    "collisionGroups": [
+      {
+        "index": 1,
+        "name": "robot"
+      },
+      {
+        "index": 2,
+        "name": "creep"
+      },
+      {
+        "index": 3,
+        "name": "bullets"
+      }
+    ],
+    "collisionMatrix": {
+      "0": 0,
+      "1": 4,
+      "2": 10,
+      "3": 4
+    }
   }
 }
